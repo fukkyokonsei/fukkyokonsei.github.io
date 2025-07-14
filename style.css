@@ -38,3 +38,17 @@ section {
 .main-nav li {
     list-style-type: none;
 }
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-nav li {
+    list-style-type: none;
+    margin: 0.5em 0;
+}
